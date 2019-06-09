@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { BooksDashboardModule } from './books-dashboard/books-dashboard.module'
 
 @NgModule({
+  declarations: [
+    AppComponent
+  ],
   imports: [
     BrowserModule,
     FormsModule,
@@ -12,9 +15,7 @@ import { BooksDashboardModule } from './books-dashboard/books-dashboard.module'
   ],
   bootstrap: [
     AppComponent
-  ],
-  declarations: [
-    AppComponent
   ]
+ 
 })
 export class AppModule {}
